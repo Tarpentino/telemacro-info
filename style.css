@@ -21,10 +21,10 @@ h1{color:var(--y);font-weight:700;font-size:28px;line-height:1.25;margin:0 0 10p
 .box p:last-child{margin-bottom:0}
 .box a{color:#000;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 
-/* One link row at the bottom, built like the app's option buttons. */
-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:0;margin:34px 0 18px}
-nav a{display:block;min-width:120px;padding:10px 16px;border:.5px solid var(--y);color:#fff;text-decoration:none;font-weight:700;font-size:14px;letter-spacing:.04em}
-nav a+a{margin-left:-.5px}
+/* One link row at the bottom, built like the app's option buttons: one outer border, thin dividers. */
+nav{display:flex;justify-content:center;width:max-content;max-width:100%;margin:34px auto 18px;border:1px solid var(--y)}
+nav a{display:block;min-width:112px;padding:10px 16px;color:#fff;text-decoration:none;font-weight:700;font-size:14px;letter-spacing:.04em;border-right:1px solid var(--y)}
+nav a:last-child{border-right:0}
 nav a.on{background:var(--y);color:#000}
 nav a:hover:not(.on){background:#1a1a1a}
 .foot{opacity:.6;font-size:13px;margin:0}
