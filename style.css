@@ -28,3 +28,4 @@ nav a:first-child{margin-left:0}
 nav a.on{background:var(--y);color:#000}
 nav a:hover:not(.on){background:#1a1a1a}
 .foot{opacity:.6;font-size:13px;margin:0}
+.foot a{color:inherit;text-decoration:underline;text-underline-offset:3px}
